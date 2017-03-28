@@ -1,0 +1,15 @@
+<template name="BarcodeScanner">
+  <div class="new-recipe-container">
+    {{_ "pages.scanPageHeader"}}
+    <form class="clientSearchForm">
+      <input type="textbox" class="txtBarcode" />
+      <button class="clientButton">{{_ "buttons.getProductDetail"}}</button>
+    </form>
+  </div>
+  {{#if isCordova}}
+  <div class="new-recipe-container">
+    {{_ "pages.scanPageHeaderCordova"}}
+    <button class="cordovaButton">{{_ "scan"}}</button>
+  </div>
+  {{/if}}
+</template>

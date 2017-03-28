@@ -1,0 +1,10 @@
+[
+  {
+    "name": "admin",
+    "email": "admin@sendmore.com.au",
+    "password" : "524@l3xy3ung",
+    "roles": [
+      "admin"
+    ]
+  }
+]

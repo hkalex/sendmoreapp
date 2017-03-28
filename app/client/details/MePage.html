@@ -1,0 +1,8 @@
+<template name="MePage">
+  {{#if userId}}
+    {{> LogoutButton}}
+  {{else}}
+    {{> LoginForm}}
+  {{/if}}
+  {{> Version}}
+</template>

@@ -1,0 +1,20 @@
+{
+  "name": "sendmoreapp",
+  "version": "1.0.0",
+  "description": "SendmoreApp",
+  "scripts": {},
+  "repository": {
+    "type": "git"
+  },
+  "author": "Alex Yeung",
+  "license": "LicenseRef-LICENSE",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "http://www.sendmore.com.au",
+  "dependencies": {
+    "babel-runtime": "^6.18.0",
+    "bcrypt": "^1.0.1"
+  },
+  "devDependencies": {}
+}

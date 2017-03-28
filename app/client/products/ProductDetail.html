@@ -1,0 +1,13 @@
+<template name="ProductDetail">
+	<div class="new-recipe-container">
+		{{#each getProducts}}
+			<h2>{{name}}</h2>
+			{{#if hasImage images}}
+				<img class="productImage" src="{{getImageUrl images}}" />
+			{{/if}}
+			<div>{{usage}}</div>
+		{{else}}
+			<div>{{_ "msg.productNotFound" barcode}}</div>
+		{{/each}}
+	</div>
+</template>

@@ -1,0 +1,12 @@
+<template name="SideNav">
+	<nav class="side-nav">
+		<ul>
+			<li><a href="/"><i class="fa fa-home"></i></a></li>
+			<li><a href="/scan"><i class="fa fa-barcode"></i></a></li>
+			<li><a href="/me"><i class="fa fa-user"></i></a></li>
+			{{#if isAdmin}}
+			<li><a href="/admin"><i class="fa fa-gears"></i></a></li>
+			{{/if}}
+		</ul>
+	</nav>
+</template>

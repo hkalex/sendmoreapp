@@ -1,0 +1,28 @@
+<template name="ProductList">
+	<!--<div style="margin-bottom:20px">
+		<a href="/newProduct"><i class="fa fa-plus fa-2x"></i></a>
+		<input type="search" class="searchText" style="width:80%;float:right" placeholder="{{_ 'search'}}" />
+	</div>-->
+	<div class="right-top-buttons">
+		<a href="/newProduct"><i class="fa fa-plus fa-2x white"></i></a>
+	</div>
+	
+		{{#if Template.subscriptionsReady}}
+			{{#each products}}
+				<div class="new-recipe-container">
+					{{#if images}}
+						<img src="{{getImage images}}" />
+					{{/if}}
+					{{name}}, 
+					{{#each barcodes}}
+						<span>{{barcode}}</span>
+					{{/each}}
+					<a href="/editProduct/{{_id}}"><i class="fa fa-edit fa-2x"></i></a>
+				</div>
+			{{else}}
+				<div class="new-recipe-container">There is no product. Please add <a href="/newProduct">product</a></div>
+			{{/each}}
+		{{else}}
+			<div class="new-recipe-container">Loading</div>
+		{{/if}}
+</template>

@@ -1,0 +1,45 @@
+{
+  "companyName": {
+    "fullName":"澳洲信睦贸易有限公司",
+    "shortName": "信睦贸易",
+    "legalName": "Sendmore Trading Pty Ltd"
+  },
+
+  "nav": {
+    "homePage": "主页",
+    "scanPage": "产品扫描",
+    "mePage": "登入",
+    "adminPage": "管理",
+    "productList": "产品管理",
+    "newProduct": "新增产品",
+    "editProduct": "修改产品"
+  },
+
+  "buttons": {
+    "getProductDetail": "确定",
+    "edit": "修改"
+  },
+
+  "pages": {
+    "scanPageHeader": "请输入产品条码",
+    "scanPageHeaderCordova": "请扫描产品条码"
+  },
+
+  "msg": {
+    "deleteProductConfirm": "确定删除此产品吗？",
+    "deleteProductTitle": "删除产品",
+    "productNotFound": "产品 %s 不存在"
+  },
+  "dialog": {
+    "ok": "确定",
+    "cancel": "取消"
+  },
+
+  "scan": "扫描",
+  "email": "电邮",
+  "password": "密码",
+  "logout": "退出",
+  "login": "登入",
+  "productList": "产品清单",
+  "search": "寻找"
+}
